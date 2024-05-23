@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Network Id="0" Length="500" width="500">
+    <Generator Id="1" X="150" Y="100" Length="200" width="150" >
+        <GeneratorAttribute name="base Active Power" type="int" value="0"/>
+        <GeneratorAttribute name="base Reactive Power" type="int" value="0"/>
+    </Generator>
+    <line Id="2" X="176" Y="153" Length="176" width="200">
+        <LineAttributes  Id="2" name="resistance" type="float" value="0"/>
+        <LineAttributes Id="2" name="reactance" type="float" value="0"/>
+    </line>
+    <ISO Id="3" X="159" Y="204" Length="199" width="244"> 
+    </ISO>
+     <line Id="4" X="176" Y="244" Length="176" width="272">
+        <LineAttributes  Id="4" name="resistance" type="float" value="0"/>
+        <LineAttributes Id="4" name="reactance" type="float" value="0"/>
+    </line>
+    <TransFormer Id="4" X="151" Y="272" Length="201" width="313">
+    </TransFormer>
+    <line Id="5" X="176" Y="370" Length="176" width="327">
+        <LineAttributes  Id="4" name="resistance" type="float" value="0"/>
+        <LineAttributes Id="4" name="reactance" type="float" value="0"/>
+    </line>
+    <Feeder Id="6" X="99" Y="369" Length="260" width="369"/>
+    <Feeder Id="7" X="95" Y="258" Length="264" width="258"/>
+    <Feeder Id="8" X="105" Y="330" Length="264" width="328"/>
+    <line Id="9" X="177" Y="312" Length="177" width="414">
+        <LineAttributes Id="5" name="resistance" type="float" value="0"/>
+        <LineAttributes Id="5" name="reactance" type="float" value="0"/>
+    </line>
+    <ISO Id="10" X="160" Y="414" Length="199" width="440"> 
+    </ISO>
+    <line Id="11" X="177" Y="370" Length="177" width="469">
+        <LineAttributes Id="5" name="resistance" type="float" value="0"/>
+        <LineAttributes Id="5" name="reactance" type="float" value="0"/>
+    </line>
+    <Load Id="12" X="159" Y="467" Length="194" width="493" />
+</Network>

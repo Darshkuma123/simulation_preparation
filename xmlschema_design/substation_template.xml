@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<substation_template xmlns:col="http://example.com/ns/substation_template"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://example.com/ns/substation_template substation_template.xsd">
+            <Generator id="1" desc="generator">
+                <positionX>150</positionX>
+                <positionY>100</positionY>
+                <positionLength>200</positionLength>
+                <positionWidth>150</positionWidth>
+                <Voltage></Voltage>
+                <Power></Power>
+            </Generator>
+            <line id="2" desc="line">
+                <positionX>176</positionX>
+                <positionY>153</positionY>
+                <positionLength>176</positionLength>
+                <positionWidth>200</positionWidth>
+                <value></value>
+            </line>
+            <ISO id="3" desc="">
+               <positionX>159</positionX>
+                <positionY>204</positionY>
+                <positionLength>199</positionLength>
+                <positionWidth>244</positionWidth>
+                <NormallyOpen></NormallyOpen>
+            </ISO>
+              <line id="4" desc="line">
+                <positionX>176</positionX>
+                <positionY>244</positionY>
+                <positionLength>176</positionLength>
+                <positionWidth>272</positionWidth>
+                <value></value>
+            </line>
+            <TransFormer id="5" desc="Transformer">
+                <positionX>151</positionX>
+                <positionY>272</positionY>
+                <positionLength>201</positionLength>
+                <positionWidth>313</positionWidth>
+                <ActivePower></ActivePower>
+                <ReactivePower></ReactivePower>
+            </TransFormer>
+             <line id="6" desc="line">
+                <positionX>176</positionX>
+                <positionY>370</positionY>
+                <positionLength>176</positionLength>
+                <positionWidth>327</positionWidth>
+                <value></value>
+            </line>
+            <Feeder id="7" desc="Feeder">
+                <positionX>99</positionX>
+                <positionY>369</positionY>
+                <positionLength>260</positionLength>
+                <positionWidth>369</positionWidth>
+                <VoltageLevel></VoltageLevel>
+            </Feeder>
+            <Feeder id="8" desc="Feeder">
+                <positionX>100</positionX>
+                <positionY>259</positionY>
+                <positionLength>260</positionLength>
+                <positionWidth>259</positionWidth>
+                <VoltageLevel></VoltageLevel>
+            </Feeder>
+            <Feeder id="9" desc="Feeder">
+                <positionX>97</positionX>
+                <positionY>326</positionY>
+                <positionLength>262</positionLength>
+                <positionWidth>326</positionWidth>
+                <VoltageLevel></VoltageLevel>
+            </Feeder>
+            <line id="10" desc="line">
+                <positionX>177</positionX>
+                <positionY>312</positionY>
+                <positionLength>177</positionLength>
+                <positionWidth>354</positionWidth>
+                <value></value>
+            </line>
+            <ISO id="11" desc="">
+               <positionX>160</positionX>
+                <positionY>414</positionY>
+                <positionLength>199</positionLength>
+                <positionWidth>440</positionWidth>
+                <NormallyOpen></NormallyOpen>
+            </ISO>
+             <line id="12" desc="line">
+                <positionX>177</positionX>
+                <positionY>370</positionY>
+                <positionLength>177</positionLength>
+                <positionWidth>469</positionWidth>
+                <value></value>
+            </line>
+            <Load id="13" desc="Load">
+                <positionX>159</positionX>
+                <positionY>467</positionY>
+                <positionLength>194</positionLength>
+                <positionWidth>493</positionWidth>
+                <ActivePower></ActivePower>
+                <ReactivePower></ReactivePower>
+            </Load>
+
+</substation_template>
